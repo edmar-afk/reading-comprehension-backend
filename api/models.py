@@ -6,6 +6,7 @@ from django.contrib.auth import get_user_model
 User = get_user_model()
 
 
+
 class ReadingMaterials(models.Model):
     title = models.TextField(blank=True, null=True)
     difficulty = models.TextField(blank=True, null=True)
